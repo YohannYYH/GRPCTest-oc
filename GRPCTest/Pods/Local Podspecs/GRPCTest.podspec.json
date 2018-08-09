@@ -1,0 +1,55 @@
+{
+  "name": "GRPCTest",
+  "version": "0.0.1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "summary": "GRPCTest",
+  "homepage": "https://github.com/YohannYYH/GRPCTest-oc",
+  "authors": {
+    "yyh": "312128654@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/YohannYYH/GRPCTest-oc",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "7.1",
+    "osx": "10.9"
+  },
+  "prepare_command": "protoc --objc_out=. --objcgrpc_out=. *.proto GRPCTest/gen/*.proto",
+  "subspecs": [
+    {
+      "name": "Messages",
+      "source_files": [
+        "*.pbobjc.{h,m}",
+        "GRPCTest/gen/*.pbobjc.{h,m}"
+      ],
+      "header_mappings_dir": ".",
+      "requires_arc": false,
+      "dependencies": {
+        "Protobuf": [
+          "~> 3.0.0-alpha-4"
+        ]
+      }
+    },
+    {
+      "name": "Services",
+      "source_files": [
+        "*.pbrpc.{h,m}",
+        "GRPCTest/gen/*.pbrpc.{h,m}"
+      ],
+      "header_mappings_dir": ".",
+      "requires_arc": true,
+      "dependencies": {
+        "gRPC": [
+          "~> 0.12"
+        ],
+        "GRPCTest/Messages": [
+
+        ]
+      }
+    }
+  ]
+}
