@@ -5,11 +5,11 @@
     "type": "MIT",
     "file": "LICENSE"
   },
-  "summary": "GRPCTest",
-  "homepage": "https://github.com/YohannYYH/GRPCTest-oc",
   "authors": {
     "yyh": "312128654@qq.com"
   },
+  "homepage": "https://github.com/YohannYYH/GRPCTest-oc",
+  "summary": "GRPCTest",
   "source": {
     "git": "https://github.com/YohannYYH/GRPCTest-oc",
     "tag": "0.0.1"
@@ -18,33 +18,42 @@
     "ios": "7.1",
     "osx": "10.9"
   },
-  "prepare_command": "protoc --objc_out=. --objcgrpc_out=. *.proto GRPCTest/gen/*.proto",
+  "dependencies": {
+    "!ProtoCompiler-gRPCPlugin": [
+      "~> 1.0"
+    ]
+  },
+  "prepare_command": "mkdir -p Pods/GRPCTest\nPods/!ProtoCompiler/protoc         --plugin=protoc-gen-grpc=Pods/!ProtoCompiler-gRPCPlugin/grpc_objective_c_plugin         --objc_out=Pods/GRPCTest         --grpc_out=Pods/GRPCTest         -I .         -I Pods/!ProtoCompiler         ./*.proto\n    # `find . -name *.proto -print | xargs`",
+  "pod_target_xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
   "subspecs": [
     {
       "name": "Messages",
       "source_files": [
-        "*.pbobjc.{h,m}",
-        "GRPCTest/gen/*.pbobjc.{h,m}"
+        "Pods/GRPCTest/*.pbobjc.{h,m}",
+        "Pods/GRPCTest/**/*.pbobjc.{h,m}"
       ],
-      "header_mappings_dir": ".",
+      "header_mappings_dir": "Pods/GRPCTest",
       "requires_arc": false,
       "dependencies": {
         "Protobuf": [
-          "~> 3.0.0-alpha-4"
+
         ]
       }
     },
     {
       "name": "Services",
       "source_files": [
-        "*.pbrpc.{h,m}",
-        "GRPCTest/gen/*.pbrpc.{h,m}"
+        "Pods/GRPCTest/*.pbrpc.{h,m}",
+        "Pods/GRPCTest/**/*.pbrpc.{h,m}"
       ],
-      "header_mappings_dir": ".",
+      "header_mappings_dir": "Pods/GRPCTest",
       "requires_arc": true,
       "dependencies": {
-        "gRPC": [
-          "~> 0.12"
+        "gRPC-ProtoRPC": [
+
         ],
         "GRPCTest/Messages": [
 

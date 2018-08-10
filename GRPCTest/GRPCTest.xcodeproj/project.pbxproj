@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F8DF88FF10734B72919B1C5 /* libPods-GRPCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD72712EAEC3534E0CCC5E5B /* libPods-GRPCTest.a */; };
 		63D2E0F2211AEA2800503D9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2E0F1211AEA2800503D9F /* AppDelegate.m */; };
 		63D2E0F5211AEA2800503D9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2E0F4211AEA2800503D9F /* ViewController.m */; };
 		63D2E0F8211AEA2800503D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D2E0F6211AEA2800503D9F /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		63D2E100211AEA2900503D9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2E0FF211AEA2900503D9F /* main.m */; };
 		63D2E10A211AEA2900503D9F /* GRPCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2E109211AEA2900503D9F /* GRPCTestTests.m */; };
 		63D2E115211AEA2900503D9F /* GRPCTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2E114211AEA2900503D9F /* GRPCTestUITests.m */; };
+		65BAD91BECE1C1CAF1A77181 /* libPods-GRPCTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C043240819657CA9AC32382 /* libPods-GRPCTestTests.a */; };
+		7ACC68A7A9D25A45D43531A5 /* libPods-GRPCTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AA7BCF63424B7C96050318 /* libPods-GRPCTestUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05EC976C53CF0515829A74AE /* Pods-GRPCTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRPCTestUITests/Pods-GRPCTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		63D2E0ED211AEA2800503D9F /* GRPCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRPCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D2E0F0211AEA2800503D9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63D2E0F1211AEA2800503D9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		63D2E110211AEA2900503D9F /* GRPCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRPCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D2E114211AEA2900503D9F /* GRPCTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRPCTestUITests.m; sourceTree = "<group>"; };
 		63D2E116211AEA2900503D9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C043240819657CA9AC32382 /* libPods-GRPCTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GRPCTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6294C97966E67F3B755DCC9 /* Pods-GRPCTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRPCTestUITests/Pods-GRPCTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6E66D44A73FB6E2C48AF641 /* Pods-GRPCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRPCTest/Pods-GRPCTest.release.xcconfig"; sourceTree = "<group>"; };
+		B3AA7BCF63424B7C96050318 /* libPods-GRPCTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GRPCTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86007F24232C01445A8CE10 /* Pods-GRPCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRPCTest/Pods-GRPCTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DD72712EAEC3534E0CCC5E5B /* libPods-GRPCTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GRPCTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E06D279001FB0B782F81771A /* Pods-GRPCTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRPCTestTests/Pods-GRPCTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4DC9C6BEA0C256D60374896 /* Pods-GRPCTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRPCTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRPCTestTests/Pods-GRPCTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8DF88FF10734B72919B1C5 /* libPods-GRPCTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65BAD91BECE1C1CAF1A77181 /* libPods-GRPCTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ACC68A7A9D25A45D43531A5 /* libPods-GRPCTestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46148ED0807DAF0653184C05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD72712EAEC3534E0CCC5E5B /* libPods-GRPCTest.a */,
+				6C043240819657CA9AC32382 /* libPods-GRPCTestTests.a */,
+				B3AA7BCF63424B7C96050318 /* libPods-GRPCTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63D2E0E4211AEA2800503D9F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				63D2E108211AEA2900503D9F /* GRPCTestTests */,
 				63D2E113211AEA2900503D9F /* GRPCTestUITests */,
 				63D2E0EE211AEA2800503D9F /* Products */,
+				9E968F2B6DF165A5801F36EB /* Pods */,
+				46148ED0807DAF0653184C05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +159,19 @@
 			path = GRPCTestUITests;
 			sourceTree = "<group>";
 		};
+		9E968F2B6DF165A5801F36EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C86007F24232C01445A8CE10 /* Pods-GRPCTest.debug.xcconfig */,
+				A6E66D44A73FB6E2C48AF641 /* Pods-GRPCTest.release.xcconfig */,
+				E4DC9C6BEA0C256D60374896 /* Pods-GRPCTestTests.debug.xcconfig */,
+				E06D279001FB0B782F81771A /* Pods-GRPCTestTests.release.xcconfig */,
+				A6294C97966E67F3B755DCC9 /* Pods-GRPCTestUITests.debug.xcconfig */,
+				05EC976C53CF0515829A74AE /* Pods-GRPCTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63D2E119211AEA2900503D9F /* Build configuration list for PBXNativeTarget "GRPCTest" */;
 			buildPhases = (
+				655AD7BD171DF314741A594E /* [CP] Check Pods Manifest.lock */,
 				63D2E0E9211AEA2800503D9F /* Sources */,
 				63D2E0EA211AEA2800503D9F /* Frameworks */,
 				63D2E0EB211AEA2800503D9F /* Resources */,
+				984D917B8F3591F6415C546F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63D2E11C211AEA2900503D9F /* Build configuration list for PBXNativeTarget "GRPCTestTests" */;
 			buildPhases = (
+				DC9E9DBEAF244959C4C27CB0 /* [CP] Check Pods Manifest.lock */,
 				63D2E101211AEA2900503D9F /* Sources */,
 				63D2E102211AEA2900503D9F /* Frameworks */,
 				63D2E103211AEA2900503D9F /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63D2E11F211AEA2900503D9F /* Build configuration list for PBXNativeTarget "GRPCTestUITests" */;
 			buildPhases = (
+				01D35DC61F547071330958E5 /* [CP] Check Pods Manifest.lock */,
 				63D2E10C211AEA2900503D9F /* Sources */,
 				63D2E10D211AEA2900503D9F /* Frameworks */,
 				63D2E10E211AEA2900503D9F /* Resources */,
@@ -256,6 +300,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01D35DC61F547071330958E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRPCTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		655AD7BD171DF314741A594E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRPCTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		984D917B8F3591F6415C546F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GRPCTest/Pods-GRPCTest-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRPCTest/Pods-GRPCTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9E9DBEAF244959C4C27CB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRPCTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63D2E0E9211AEA2800503D9F /* Sources */ = {
@@ -431,6 +550,7 @@
 		};
 		63D2E11A211AEA2900503D9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86007F24232C01445A8CE10 /* Pods-GRPCTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +568,7 @@
 		};
 		63D2E11B211AEA2900503D9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E66D44A73FB6E2C48AF641 /* Pods-GRPCTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +586,7 @@
 		};
 		63D2E11D211AEA2900503D9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DC9C6BEA0C256D60374896 /* Pods-GRPCTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +605,7 @@
 		};
 		63D2E11E211AEA2900503D9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06D279001FB0B782F81771A /* Pods-GRPCTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +624,7 @@
 		};
 		63D2E120211AEA2900503D9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6294C97966E67F3B755DCC9 /* Pods-GRPCTestUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GRPCTestUITests/Info.plist;
@@ -518,6 +642,7 @@
 		};
 		63D2E121211AEA2900503D9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EC976C53CF0515829A74AE /* Pods-GRPCTestUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = GRPCTestUITests/Info.plist;
